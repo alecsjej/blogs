@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+   
+}
+
+header{
+background-color: aqua;
+height:107px;
+display: flex;    
+flex-flow: row wrap;
+}
+nav{
+background-color:green ;
+height: 73px;
+display: flex;    
+flex-flow: row wrap;
+
+}
+ol{
+    list-style-position:inside ;
+    display: flex;    
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+article{
+background-color: orangered;
+height: 552px;
+display: flex;    
+flex-flow: row wrap;
+align-content: space-around;
+}
+footer{
+background-color: rgb(231, 59, 131);
+height: 641px;
+display: flex;    
+flex-flow: row wrap;
+}
+
+.container {
+display: flex;    
+flex-flow: row wrap;
+}
+
+p {
+    width:400px;
+}
+h1{
+    display: none;
+}
